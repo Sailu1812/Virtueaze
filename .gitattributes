@@ -1,0 +1,2 @@
+public/BGM.mp4 filter=lfs diff=lfs merge=lfs -text
+public/BGV.mp4 filter=lfs diff=lfs merge=lfs -text

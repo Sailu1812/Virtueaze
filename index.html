@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Scroll Background Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Fullscreen Background Video -->
+  <div class="video-container" id="videoContainer">
+    <video
+      id="bgVideo"
+      playsinline
+      webkit-playsinline="true"
+      x5-playsinline="true"
+      x5-video-player-type="h5-page"
+      muted
+      autoplay
+      preload="auto"
+      disablepictureinpicture
+      disableremoteplayback
+      src="BGV.mp4"
+    ></video>
+  </div>
+
+  <!-- Scroll Height Spacer Container -->
+  <div class="scroll-spacer" id="scrollSpacer"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
